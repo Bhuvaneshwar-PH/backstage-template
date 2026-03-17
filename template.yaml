@@ -64,6 +64,10 @@ spec:
       input:
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
+        defaultBranch: main
+        gitCommitMessage: inital commit by backstage Template
+        gitAuthorName: backstage-template@bot
+        
 
     - id: register
       name: Register
